@@ -177,6 +177,9 @@ var shop = function() {
       // call shop() again to force player to pick a valid option
       shop();
       break;
+      else{
+        console.log ("You lost")
+      }
   }
 };
 
